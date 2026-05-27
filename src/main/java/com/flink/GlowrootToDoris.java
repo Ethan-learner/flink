@@ -17,7 +17,7 @@ import java.util.Properties;
 public class GlowrootToDoris {
 
     // 配置保持不变
-    private static final String KAFKA_BOOTSTRAP_SERVERS = "172.16.10.27:9092,172.16.10.28:9092";
+    private static final String KAFKA_BOOTSTRAP_SERVERS = "172.16.10.27:9092";
     private static final String KAFKA_TOPIC = "cassandra.test_cdc.test_table";
     private static final String KAFKA_GROUP_ID = "flink_doris_cdc_group";
 
